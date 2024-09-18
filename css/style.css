@@ -1,0 +1,232 @@
+/*
+AUTHOR NAME: ANIK ISLAM
+Template: Mary Harfy
+version: 1.0.0
+*/
+
+
+/* essential set up  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ROOT VARIABLES:  */
+:root {
+    --heading-font: "Oswald", sans-serif;
+    --body-font: "Roboto", sans-serif;
+    --white-color: #fff;
+    --black-color: #000;
+    --nav-menu-color: #181818;
+    --nav-btn-color: #f06e0a;
+    --header-bg: #fff8f3;
+
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* HEADER SECTION START */
+.header-section {
+    position: sticky;
+    top: 0;
+    background-color: var(--header-bg);
+    z-index: 1;
+    /* padding-top: 30px ; */
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo h1 {
+    font-size: 40px;
+    color: var(--black-color);
+}
+
+.unique {
+    color: var(--nav-btn-color);
+}
+
+.navmenus {
+    display: flex;
+}
+
+.navmenus li {
+    list-style: none;
+}
+
+.navmenus li a {
+    text-decoration: none;
+    color: var(--nav-menu-color);
+    padding: 0 25px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.navmenus li a:hover {
+    color: var(--nav-btn-color);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.primary-btn {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--nav-btn-color);
+    padding: 15px 25px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.primary-btn:hover {
+    color: var(--nav-btn-color);
+    background: transparent;
+    border: 1px solid var(--nav-btn-color);
+    padding: 15px 25px;
+}
+
+.b-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bar {
+    background-color: var(--nav-btn-color);
+    opacity: 0.8;
+    padding: 8px 12px;
+    color: var(--white-color);
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+    visibility: hidden;
+
+}
+
+/* HEADER SECTION END */
+
+
+/*HERO SECTION START */
+.hero-section {
+    padding-top: 50px; 
+    background-color: var(--header-bg);
+    overflow: hidden;
+    position: relative;
+    /* background-image: url("../images/header_bg.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: bottom right;  */
+}
+
+.shape img{
+    position: absolute;
+    left: 100px;
+    top:  0px;
+    height: 700px;
+    z-index: 2;
+
+}
+ 
+.hero-row {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px; 
+}
+
+.hero-right img {
+    /* width: 100%; */ 
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.title h2 {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: var(--heading-font);
+    /* margin-bottom: 15px; */
+}
+
+.name h1 {
+    font-size: 55px;
+    font-weight: 800;
+    font-family: var(--heading-font);
+    margin-bottom: 15px;
+}
+
+.about-me p {
+    font-size: 18px;
+    width: 528px;
+}
+
+.btns {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.down-btn {
+    background-color: var(--nav-btn-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.down-btn a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.down-btn i {
+    color: var(--white-color);
+    margin-right: 8px;
+}
+
+.border {
+    border: 1px solid var(--nav-btn-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.border i {
+    color: var(--nav-btn-color);
+    margin-right: 8px;
+}
+
+.border a {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--nav-btn-color);
+    font-weight: 500;
+}
+
+/*HERO SECTION END */
+
+
+
+/* SECTION START */
+/* SECTION END */

@@ -1,0 +1,61 @@
+@media(max-width: 1150px){
+   
+    .hero-row{
+        flex-wrap: wrap;
+    }
+    .shape img{
+        display: none;
+    }
+}
+
+@media(max-width: 900px){
+    .title h2{
+        font-size: 30px;
+    }
+    .name h1{
+        font-size: 40px;
+    }
+    .hero-right img{
+        width: 500px;
+    }
+}
+
+@media(max-width: 850px){
+    .navmenus{
+        display: none;
+    }
+    .bar{
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media(max-width: 768px){
+   .hero-right img{
+    width: 450px;
+   }
+}
+
+@media(max-width: 630px){
+     
+}
+
+@media(max-width: 545px){
+     .about-me p{
+        width: 450px;
+     }
+}
+
+@media(max-width: 430px){
+    .btn .primary-btn{
+        display: none;
+    } 
+    .about-me p{
+        width: 350px;
+     }
+     .hero-right img{
+        width: 350px;
+       }
+
+
+}
