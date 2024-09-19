@@ -28,6 +28,13 @@
         display: block;
         visibility: visible;
     }
+    .info-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .a-desk p{
+        text-align: justify;
+    }
 }
 
 @media(max-width: 768px){
@@ -37,12 +44,17 @@
 }
 
 @media(max-width: 630px){
-     
+    .a-desk p{
+        text-align: justify;
+    }
 }
 
 @media(max-width: 545px){
      .about-me p{
         width: 450px;
+     }
+     .about-content{
+        padding: 60px 30px 60px 30px;
      }
 }
 

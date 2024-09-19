@@ -228,5 +228,47 @@ body {
 
 
 
+/*ABOUT ME SECTION START */
+.aboutme-section{
+    padding: 90px 0;
+}
+.about-content{
+    background-color: var(--header-bg);
+    padding: 90px;
+}
+.a-heading h1{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+.a-desk p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--nav-menu-color);
+    text-align: center;
+}
+.info-row{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.col1{
+    text-align: center;
+}
+.col1 span{
+    font-size: 18px; 
+}
+.col1 h3{
+    font-size: 20px;
+    font-family: var(--heading-font);
+    margin-top: 8px;
+}
+/*ABOUT ME SECTION END */
+
+
 /* SECTION START */
 /* SECTION END */
