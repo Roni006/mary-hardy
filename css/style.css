@@ -21,11 +21,15 @@ version: 1.0.0
     --nav-menu-color: #181818;
     --nav-btn-color: #f06e0a;
     --header-bg: #fff8f3;
+    --skill-shadow:rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    --skill-hover: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
 
 }
 
 body {
     font-family: var(--body-font);
+    margin-bottom: 200px;
 }
 
 .container {
@@ -269,6 +273,67 @@ body {
 }
 /*ABOUT ME SECTION END */
 
+
+/*SKILL SECTION START */
+.skill-section{
+
+}
+.upper-skill{
+    text-align: center;
+    padding: 0 200px;
+}
+.s-heading h2{
+    font-size: 35px;
+    font-family: var(--heading-font);
+    margin-bottom: 20px;
+}
+.s-details p{
+    font-size: 18px;
+}
+.bottom-skill{
+    /* width:calc(100% - 350px) ; */
+    margin-top: 80px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.bottom-row{ 
+    width: 3500px; 
+    background-color: var(--white-color); 
+    padding: 40px 30px 40px 30px;
+    box-shadow: var(--skill-shadow); 
+    transition: 0.2s;
+}
+.bottom-row:hover{
+    
+    box-shadow: var(--skill-hover);
+}
+.s-icon img{
+    margin-bottom: 15px;
+}
+.s-title h3{
+    font-size: 22px;
+    font-family: var(--heading-font);
+    margin-bottom: 10px;
+}
+.s-info p{
+    font-size: 18px;
+    color: var(--nav-menu-color);
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.s-learn a{
+    text-decoration: none;
+    background-color: var(--nav-btn-color);
+    padding: 8px 12px;
+    color: var(--white-color);
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 5px;
+}
+/*SKILL SECTION END */
 
 /* SECTION START */
 /* SECTION END */

@@ -8,6 +8,12 @@
     }
 }
 
+/* @media(max-width: 950px){
+    .bottom-skill{
+        display: flex;  
+    }
+} */
+
 @media(max-width: 900px){
     .title h2{
         font-size: 30px;
@@ -17,6 +23,12 @@
     }
     .hero-right img{
         width: 500px;
+    }
+    .s-details{
+        text-align: justify; 
+    }
+    .upper-skill{ 
+        padding: 0 150px;
     }
 }
 
@@ -47,6 +59,9 @@
     .a-desk p{
         text-align: justify;
     }
+    .upper-skill{
+        padding: 0 80px;
+    }
 }
 
 @media(max-width: 545px){
@@ -67,6 +82,9 @@
      }
      .hero-right img{
         width: 350px;
+       }
+       .upper-skill{
+        padding: 0 30px;
        }
 
 
