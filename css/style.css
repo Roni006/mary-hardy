@@ -16,6 +16,7 @@ version: 1.0.0
 :root {
     --heading-font: "Oswald", sans-serif;
     --body-font: "Roboto", sans-serif;
+    --light-gray: #949494;
     --white-color: #fff;
     --black-color: #000;
     --nav-menu-color: #181818;
@@ -257,8 +258,7 @@ body {
     margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-around; 
 }
 .col1{
     text-align: center;
@@ -275,65 +275,124 @@ body {
 
 
 /*SKILL SECTION START */
-.skill-section{
-
-}
-.upper-skill{
+.skill-info{
     text-align: center;
-    padding: 0 200px;
+    padding: 0 144px;
+}
+.s-title h1{
+    font-size: 45px;
+    font-family: var(--heading-font);
+    margin-bottom: 18px;
+}
+.s-desk p{
+    font-size: 18px; 
+}
+.skill-row{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.skill-blck1{
+    background-color: var(--white-color);
+    box-shadow: var(--skill-shadow);
+    padding: 40px 33px 30px 40px;
+    width: 350px;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+.skill-blck1:hover{ 
+    box-shadow: var(--skill-hover);
 }
 .s-heading h2{
+    margin-top: 15px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+}
+.s-info p{
+    font-size: 16px;
+    margin-top: 10px;
+    color: var(--light-gray);
+    text-align: justify;
+}
+.s-btns a{
+    text-decoration: none;
+    color:var(--white-color);
+    background-color: var(--nav-btn-color);
+    display: inline-block;
+    padding: 8px 15px; 
+    border-radius: 4px;
+    margin-top: 25px;
+}
+/*SKILL SECTION END */
+
+
+/*SUMMARY AND RESUME SECTION START */
+.summary-resume-section{
+    padding: 90px 0;
+}
+.resume-heading h1{
+    font-size: 45px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    text-align: center;
+}
+.resume-bottom{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.resume-content{
+    width: 442px; 
+    
+}
+.resume-title h2{
     font-size: 35px;
     font-family: var(--heading-font);
     margin-bottom: 20px;
 }
-.s-details p{
-    font-size: 18px;
-}
-.bottom-skill{
-    /* width:calc(100% - 350px) ; */
-    margin-top: 80px;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-.bottom-row{ 
-    width: 3500px; 
-    background-color: var(--white-color); 
-    padding: 40px 30px 40px 30px;
-    box-shadow: var(--skill-shadow); 
-    transition: 0.2s;
-}
-.bottom-row:hover{
-    
-    box-shadow: var(--skill-hover);
-}
-.s-icon img{
-    margin-bottom: 15px;
-}
-.s-title h3{
-    font-size: 22px;
+.resume-subtitle h3{
+    font-size: 25px;
     font-family: var(--heading-font);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
-.s-info p{
+.resume-subtitle p{
+    color:var(--light-gray);
     font-size: 18px;
-    color: var(--nav-menu-color);
-    text-align: justify;
-    margin-bottom: 15px;
-}
-.s-learn a{
-    text-decoration: none;
-    background-color: var(--nav-btn-color);
-    padding: 8px 12px;
-    color: var(--white-color);
-    margin-top: 20px;
-    display: inline-block;
+    margin-bottom: 15px; 
     font-weight: 500;
-    border-radius: 5px;
 }
-/*SKILL SECTION END */
+.resume-detail p{
+    margin-bottom: 15px;  
+    color:var(--light-gray);
+}
+.line{
+    width: 650px;
+    margin-right: 8px;
+}
+.resume-btn span{ 
+    background-color: var(--nav-btn-color);  
+    padding: 20px 20px;
+    color: var(--white-color);
+}
+.resume-btn span a{
+    text-decoration: none;
+    color: var(--white-color);
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    display: inline-block;
+}
+.resume-btn { 
+    margin-left: 500px; 
+    margin-top: 40px; 
+}
+/*SUMMARY AND RESUME SECTION END */
+
 
 /* SECTION START */
 /* SECTION END */
