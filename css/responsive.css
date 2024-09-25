@@ -84,6 +84,21 @@
      }
      .skill-info{
         padding: 0 25px;
+     } 
+     .resume-heading h1{
+        font-size: 35px;
+     }
+     .resume-title h2 {
+        font-size: 30px;
+     }
+     .resume-subtitle h3{
+        font-size: 20px;
+     }
+     .resume-subtitle p{
+        font-size: 16px;
+     }
+     .resume-bottom{
+        padding: 0 15px;
      }
 }
 
@@ -105,6 +120,9 @@
        }
        .skill-row{
         padding: 0 10px;
+       }
+       .resume-subtitle p{
+        text-align: justify;
        }
 
 }
