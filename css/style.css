@@ -29,8 +29,7 @@ version: 1.0.0
 }
 
 body {
-    font-family: var(--body-font);
-    margin-bottom: 200px;
+    font-family: var(--body-font); 
 }
 
 .container {
@@ -380,6 +379,7 @@ body {
     color: var(--white-color);
 }
 .resume-btn span a{
+    margin-top: 30px;
     text-decoration: none;
     color: var(--white-color);
     margin-left: 5px;
@@ -395,5 +395,98 @@ body {
 /*SUMMARY AND RESUME SECTION END */
 
 
-/* SECTION START */
-/* SECTION END */
+/*FOOTER SECTION START */
+.footer-section{
+    background-color: var(--header-bg);
+    padding: 90px 0 30px 0;
+
+}
+.footer-left{
+    width: 50%;
+    justify-content: flex-start;
+    margin-top: -160px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.f-title h1{
+    font-size: 55px;
+    font-family: var(--heading-font);
+    margin-bottom: 15px;
+}
+.f-detail p{
+    font-size: 18px;
+    color: var(--light-gray);
+    width: 581px;
+    margin-bottom: 12px;
+}
+
+.footer-right{
+    width: 50%;
+}
+.f-form-title h1{
+    font-size: 55px;
+    font-family: var(--heading-font);
+    margin-bottom: 15px;
+}
+.footer-right{
+    align-self: center;
+} 
+input{ 
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px 12px;
+    outline: none;
+    border: none;
+    font-size: 16px; 
+    border-radius: 4px;
+}
+.footer-icons {
+    margin-top: 30px;
+    font-size: 25px;
+    display:  flex;
+    gap: 18px;
+
+    
+}
+.footer-icons i{
+    color: var(--white-color);
+    transition: 0.2s;
+    background-color: #f06e0a;
+    height: 50px;
+    width: 50px;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+.footer-icons i:hover{
+    color: var(--nav-btn-color);
+    background-color: var(--white-color); 
+
+}
+.footer-btn button{
+    background-color: var(--nav-btn-color);
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 35px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+ 
+.copy-right p{
+    margin-top: 50px;
+    background-color: var(--nav-btn-color);
+    text-align: center;
+    padding: 8px 0;
+    font-size: 16px;
+    color: var(--white-color);
+}
+/*FOOTER SECTION END */
